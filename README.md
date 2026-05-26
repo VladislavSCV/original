@@ -28,3 +28,4 @@ cd frontend && npm install && npm run dev
 ```
 
 Админ: **Admin26** / **Demo20**
+
