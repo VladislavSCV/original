@@ -113,9 +113,9 @@ var allowed_room_type = map[string]bool{
 	"закрытая веранда": true,
 }
 var allowed_payment_method = map[string]bool{
-	"наличные": true,
-	"банковская карта": true,
-	"безналичный расчёт": true,
+	"предоплата по QR-коду": true,
+	"оплата картой МИР": true,
+	"постоплата в офисе организации": true,
 }
 
 func (h *Handlers) MyRecords(c *fiber.Ctx) error {
